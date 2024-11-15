@@ -3,4 +3,4 @@ declare class CJLocalCache {
   getCache(key: string)
   deleteCache(key: string)
 }
-export default CJLocalCache
+export default new CJLocalCache
